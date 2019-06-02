@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.10.RELEASE</version>
+    </parent>
+
+    <groupId>hzfq</groupId>
+    <artifactId>springboot-shangxuetang</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>10-spring-boot-view-thymeleaf</module>
+        <module>12-spring-boot-springmvc-mybatis</module>
+        <module>13-spring-boot-validate</module>
+        <module>14-spring-boot-exception1</module>
+        <module>15-spring-boot-exception2</module>
+        <module>16-spring-boot-exception3</module>
+        <module>17-spring-boot-exception4</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.3.0</thymeleaf-layout-dialect.version>
+    </properties>
+
+</project>
